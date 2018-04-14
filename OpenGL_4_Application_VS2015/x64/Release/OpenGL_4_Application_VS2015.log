@@ -1,0 +1,79 @@
+﻿  Camera.cpp
+  Mesh.cpp
+Mesh.cpp(36): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Model3D.cpp
+Model3D.cpp(96): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+Model3D.cpp(104): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  OpenGL_4_Application_VS2015.cpp
+OpenGL_4_Application_VS2015.cpp(71): warning C4305: '+=': truncation from 'double' to 'float'
+OpenGL_4_Application_VS2015.cpp(75): warning C4305: '-=': truncation from 'double' to 'float'
+OpenGL_4_Application_VS2015.cpp(232): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  Shader.cpp
+  stdafx.cpp
+  stb_image.c
+stb_image.c(429): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+stb_image.c(442): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Mesh.obj : error LNK2001: unresolved external symbol __imp_glDrawElements
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Model3D.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+Model3D.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+Model3D.obj : error LNK2001: unresolved external symbol __imp_glTexImage2D
+Model3D.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwSwapBuffers
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glViewport
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glClear
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewUniform1i
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glEnable
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glCullFace
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwGetFramebufferSize
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwTerminate
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwPollEvents
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwInit
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glFrontFace
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwSetKeyCallback
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwSetWindowShouldClose
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwCreateWindow
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwWindowHint
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwMakeContextCurrent
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewBufferData
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewActiveTexture
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glClearColor
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glewExperimental
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwSetCursorPosCallback
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGenerateMipmap
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwSetWindowSizeCallback
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glDepthFunc
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glGetString
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glfwWindowShouldClose
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glewInit
+Shader.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+C:\Users\Raynor\Downloads\OpenGL_4_Application_VS2015\OpenGL_4_Application_VS2015\x64\Release\OpenGL_4_Application_VS2015.exe : fatal error LNK1120: 63 unresolved externals

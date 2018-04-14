@@ -1,0 +1,85 @@
+﻿  stdafx.cpp
+  Shader.cpp
+  OpenGL_4_Application_VS2015.cpp
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015.cpp(71): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015.cpp(75): warning C4305: '-=': truncation from 'double' to 'float'
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015.cpp(232): warning C4305: 'argument': truncation from 'double' to 'GLclampf'
+  Model3D.cpp
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\model3d.cpp(96): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\model3d.cpp(104): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Mesh.cpp
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\mesh.cpp(36): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  Camera.cpp
+  Generating Code...
+  stb_image.c
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\stb_image.c(429): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+c:\users\raynor\downloads\opengl_4_application_vs2015\opengl_4_application_vs2015\opengl_4_application_vs2015\stb_image.c(442): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+Mesh.obj : error LNK2019: unresolved external symbol __imp_glBindTexture referenced in function "public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)
+Model3D.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glBindTexture
+Mesh.obj : error LNK2019: unresolved external symbol __imp_glDrawElements referenced in function "public: void __cdecl gps::Mesh::Draw(class gps::Shader)" (?Draw@Mesh@gps@@QEAAXVShader@2@@Z)
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewEnableVertexAttribArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewVertexAttribPointer
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewBindVertexArray
+Mesh.obj : error LNK2001: unresolved external symbol __imp___glewGenVertexArrays
+Model3D.obj : error LNK2019: unresolved external symbol __imp_glGenTextures referenced in function "private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glGenTextures
+Model3D.obj : error LNK2019: unresolved external symbol __imp_glTexImage2D referenced in function "private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glTexImage2D
+Model3D.obj : error LNK2019: unresolved external symbol __imp_glTexParameteri referenced in function "private: unsigned int __cdecl gps::Model3D::ReadTextureFromFile(char const *)" (?ReadTextureFromFile@Model3D@gps@@AEAAIPEBD@Z)
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __imp_glTexParameteri
+Model3D.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glClear referenced in function "void __cdecl renderScene(void)" (?renderScene@@YAXXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glClearColor referenced in function "void __cdecl renderScene(void)" (?renderScene@@YAXXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glCullFace referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glDepthFunc referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glEnable referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glFrontFace referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glGetString referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol __imp_glViewport referenced in function "void __cdecl renderScene(void)" (?renderScene@@YAXXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glewInit referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwSetWindowShouldClose referenced in function "void __cdecl keyboardCallback(struct GLFWwindow *,int,int,int,int)" (?keyboardCallback@@YAXPEAUGLFWwindow@@HHHH@Z)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwSetWindowSizeCallback referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwSetKeyCallback referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwSetCursorPosCallback referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "bool __cdecl initOpenGLWindow(void)" (?initOpenGLWindow@@YA_NXZ)
+OpenGL_4_Application_VS2015.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function main
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewActiveTexture
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewBufferData
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewUniform1i
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewUniformMatrix4fv
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGenerateMipmap
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewBindVertexArray
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol __glewGenVertexArrays
+OpenGL_4_Application_VS2015.obj : error LNK2001: unresolved external symbol glewExperimental
+Shader.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Shader.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetProgramiv
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Shader.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Shader.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Shader.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Shader.obj : error LNK2001: unresolved external symbol __glewUseProgram
+C:\Users\Raynor\Downloads\OpenGL_4_Application_VS2015\OpenGL_4_Application_VS2015\x64\Debug\OpenGL_4_Application_VS2015.exe : fatal error LNK1120: 63 unresolved externals
