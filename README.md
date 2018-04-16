@@ -7,5 +7,5 @@ This application is implemented using OpenGL. Open Graphics Library is a program
 
 - camera movement using keyboard
 - global lights
-- moving light
+- moving lights
 - shadows 
